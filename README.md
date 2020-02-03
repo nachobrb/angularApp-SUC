@@ -1,2 +1,2 @@
 # angularApp-SUC
-Site under construction angual app
+This angular app is made for MFHRecords under construction page.
