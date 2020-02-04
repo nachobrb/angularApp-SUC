@@ -1,5 +1,15 @@
+.jumbotron {
+    border-radius: 0px;
+    vertical-align: middle;
+}
+
 .imglogo {
     max-width: 100%;
+}
+
+.logontext {
+    height: 50%;
+    color: white;
 }
 
 .logontext h1 {
@@ -16,7 +26,7 @@
 }
 
 .jumbotron-background {
-    background-color: rgba(221, 221, 221, 0.644);
+    background-color: rgba(116, 116, 116, 0.377);
     object-fit:cover;
     top:0;
     z-index:1;
