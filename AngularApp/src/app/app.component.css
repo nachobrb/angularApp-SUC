@@ -10,7 +10,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 2px;
-    background: rgba(92, 92, 92, 0.404);
+    background: rgba(92, 92, 92, 0.63);
     opacity:1;
     text-shadow: black 0em 0.6em 1.1em;
     box-shadow: 0 0 32px rgba(0, 0, 0, 0.5);
