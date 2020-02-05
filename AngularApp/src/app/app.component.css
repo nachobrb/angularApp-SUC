@@ -1,50 +1,98 @@
+/* JUMBOTRON */
+.wrapper {
+    position: relative;
+    height: 100vh;
+}
+
 .jumbotron {
-    border-radius: 0px;
-    vertical-align: middle;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 2px;
+    background: rgba(92, 92, 92, 0.404);
+    opacity:1;
+    text-shadow: black 0em 0.6em 1.1em;
+    box-shadow: 0 0 32px rgba(0, 0, 0, 0.5);
+    filter: grayscale(50%);
+}
+/* END */
+
+/* JUMBOTRON CONTENT */
+.jumbotron .logo img {
+    max-width: 70%;
+    -webkit-filter: drop-shadow(1 1 1em #fff);
+    filter: drop-shadow(1em 1em 1em #fff); 
+
+    /* TEMPORA-CAMBIAR IMAGEN */
+    -webkit-filter:invert(100%);
+    filter:progid:DXImageTransform.Microsoft.BasicImage(invert='1');
+}
+.jumbotron .display-4 {
+    font-size: 4.2vmax;
+}
+/* END */
+
+/* TEXT RELATED */
+.text-white {
+    color: white;
+}
+/* END */
+
+/* SOCIAL MEDIA */
+.social {
+    margin-top: 1em;
 }
 
-.imglogo {
-    max-width: 100%;
+.social a {
+    text-decoration: none;
 }
 
-.logontext {
-    height: 50%;
+.fa {
+    margin-right: 5%;
+    margin-left: 5%;
+    padding-top: 1vmin;
+    font-size: 4vmin;
+    width: 6vmin;
+    height: 6vmin;
+    border-radius: 50%;
+    -webkit-filter: drop-shadow(0.5em 0.5em 0.5em black);
+    filter: drop-shadow(0em 0.0em 0.3em black); 
+
+    -webkit-transition: opacity 0.4s ease-in;
+    -moz-transition: opacity 0.4s ease-in;
+    -ms-transition: opacity 0.4s ease-in;
+    -o-transition: opacity 0.4s ease-in;
+    transition: opacity 0.4s ease-in; 
+}
+  
+.fa:hover {
+    opacity: 0.5;
+    -webkit-transition: opacity 0.3s ease-in-out;
+    -moz-transition: opacity 0.3s ease-in-out;
+    -ms-transition: opacity 0.3s ease-in-out;
+    -o-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out; 
+}
+  
+.fa-facebook {
+    background: #3B5998;
     color: white;
 }
 
-.logontext h1 {
-    text-align: center;  
-    font-size: 350%;
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+  
+.fa-instagram {
+    background: #125688;
+    color: white;
 }
 
-.logontext h4 {
-    text-align: center;    
+.fa-soundcloud {
+    background: #ff5500;
+    color: white;
+    /* padding: 20%; */
 }
-
-.logo {
-    text-align: center;
-}
-
-.jumbotron-background {
-    background-color: rgba(116, 116, 116, 0.377);
-    object-fit:cover;
-    top:0;
-    z-index:1;
-    width:100%;
-    height:100%;
-    opacity:1;
-}
-
-
-img.blur {
-    -webkit-filter: blur(4px);
-    filter: blur(4px);
-    filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='4'); 
-}
-
-@media (max-width: 560px) {
-    .logontext h1 {
-        text-align: center;  
-        font-size: 250%;
-    }
-}
+/* END */
