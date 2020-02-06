@@ -12,7 +12,7 @@
     border-radius: 2px;
     background: rgba(92, 92, 92, 0.63);
     opacity:1;
-    text-shadow: black 0em 0.6em 1.1em;
+    text-shadow: black 0em 0.3em 0.8em;
     box-shadow: 0 0 32px rgba(0, 0, 0, 0.5);
     filter: grayscale(50%);
 }
@@ -56,7 +56,7 @@
     width: 6vmin;
     height: 6vmin;
     border-radius: 50%;
-    -webkit-filter: drop-shadow(0.5em 0.5em 0.5em black);
+    -webkit-filter: drop-shadow(0em 0.0em 0.3em black); 
     filter: drop-shadow(0em 0.0em 0.3em black); 
 
     -webkit-transition: opacity 0.4s ease-in;
